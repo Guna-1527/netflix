@@ -1,0 +1,50 @@
+.TrailerContainer {
+    width: 100%;
+    height: 100vh;
+}
+.Trailer {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -1;
+}
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.TrailerDetails {
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    left: 168px;
+}
+.Trailer__Title {
+    font-size: 5rem;
+    color: white;
+}
+.Trailer__Desc {
+    font-size: 1rem;
+    color: white;
+}
+.Trailerbtn {
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Trailerbtn:nth-child(2) {
+    margin-left: 20px;
+}
+.fcIcon {
+    margin-right: 10px;
+}
+.PlayButton {
+    background-color: #393939;
+    color: white;
+}

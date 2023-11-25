@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.navContainer {
+    width: 100%;
+    z-index: 99999;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    transition: .3s ease-in-out;
+}
+.colorChange {
+    background-color: black;
+}
+.LogoAndLinks {
+    display: flex;
+    align-items: center;
+}
+.LogoAndLinks ul {
+    display: flex;
+    list-style: none;
+}
+.LogoAndLinks ul li {
+    margin-left: 14px;
+}
+.LogoAndLinks ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+}
+.navContainer .max-width {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.navContainer .max-width img {
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+}
+.LogoutBtn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #bbbbbb;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+.LogoutBtn:hover {
+    color: white;
+}
+.Icons {
+    margin-right: 10px;
+}

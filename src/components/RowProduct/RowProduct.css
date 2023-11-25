@@ -1,0 +1,16 @@
+.MainWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    margin: auto;
+}
+.ProductMainw {
+    display: flex;
+    overflow-x: scroll;
+}
+.ProductMainw::-webkit-scrollbar {
+    display: none;
+}
+.PCHeader {
+    padding: 30px 0;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.Main__Movie__Page__Container {
+    display: flex;
+    height: 100vh;
+    padding: 100px;
+    background-color: black;
+    color: white;
+
+}
+.Left__Movie__Page__Image {
+    width: 400px;
+    height: 500px;
+}
+.Left__Movie__Page__Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Right__Movie__Page {
+    margin-left: 50px;
+    align-items: flex-start;
+
+}
+.Left__Movie__Page__Header__Title {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    color: white !important;
+}
+.Left_Movie__Page__Refer {
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(172, 172, 172);
+}
+.Left__Movie__Details {
+    display: flex;
+}
+.Left__MOvie__Values {
+    margin-left: 10px;
+}
+.Left__Movie__Page__Button {
+    margin-top: 50px;
+}
+.Trailerbtn {
+    padding: 8px 15px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Trailerbtn:nth-child(2) {
+    margin-left: 20px;
+}
+.fcIcon {
+    margin-right: 10px;
+}
+.PlayButton {
+    background-color: #393939;
+    color: white;
+}
