@@ -21,10 +21,7 @@ const SignIn = () => {
 
   return (
     <div className=''>
-        {value ? <Home /> : <div className='SignIn'>
-            <button className='LoginWithGoogle' onClick={handleSignIn}>
-                <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="" />Sign In with Google
-            </button></div>}
+        <Home/>
     </div>
   )
 }
